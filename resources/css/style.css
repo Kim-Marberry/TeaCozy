@@ -1,0 +1,42 @@
+*{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Header Styling*/
+
+.header-banner{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+}
+
+.title{
+  margin-top: 7px;
+}
+
+.title img{
+  height: 50px;
+  position: fixed;
+  left: 10px;
+}
+
+.header{
+  display: flex;
+  position: fixed;
+
+}
+
+.header-nav span{
+  display: inline-block;
+  text-decoration: underline;
+  margin-top: 15px;
+  margin-right: 20px;
+}
