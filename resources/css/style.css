@@ -7,6 +7,10 @@
   text-align: center;
 }
 
+h2{
+  font-size: 35px;
+}
+
 /* Header Styling*/
 
 .header-banner{
@@ -47,8 +51,8 @@
 /*Container Styling*/
 .container{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
 }
 /*End Container Styling*/
@@ -69,6 +73,38 @@
   display: flex;
 }
 
-.mission-banner h2{
-  font-size: 35px;
+/*Tea of the Month*/
+
+.tea-of-the-month{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
 }
+
+.totm-title{
+  display: block;
+}
+
+.teas{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tea{
+  width: 300px;
+  margin-left: 30px;
+}
+
+.tea-title{
+  margin: 10px auto 20px auto;
+}
+
+.tea-image-content img{
+  width: 300px;
+  height: 200px;
+}
+
+/* Location Section*/
